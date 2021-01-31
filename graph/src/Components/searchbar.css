@@ -1,0 +1,47 @@
+.stats {
+    display: inline-block;
+    flex-direction: row;
+    justify-content: center;
+    float: left;
+    position: relative;
+    top: 76px;
+    left: 481px;
+
+}
+
+.statsTwo{
+    display: inline-block;
+    float: right;
+    position: relative;
+    right: 406px;
+    top: 76px;
+}
+
+form.playerOne{
+    display: inline-block;
+    position: absolute;
+    float: right;
+    left: 340px;
+    top: 50px;
+}
+
+form.playerTwo{
+    display: inline-block;
+    position: absolute;
+    float: left;
+    top: 50px;
+}
+
+canvas.chartjs-render-monitor{
+    position: relative;
+    top: 100px;
+}
+
+input.playerOneSubmit{
+    background-color: rgba(226, 106, 106, 1);
+}
+
+    
+input.playerTwoSubmit{
+    background-color: rgba(137, 196, 244, 1);
+}
